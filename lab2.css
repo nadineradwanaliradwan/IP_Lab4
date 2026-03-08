@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(to right, #978fdc, #746c89);
+  color: white;
+  padding: 40px 20px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.about {
+  padding: 50px 20px;
+}
+
+.about-text {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+
+.projects {
+  padding: 50px 20px 70px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.contact {
+  background: #f7f4f4;
+  color: #070707;
+  padding: 40px 20px;
+}
+.contact input {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.contact input::placeholder {
+  color: #999;
+}
+.contact input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #555;
+}
+.contact textarea {
+  display: block;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  padding: 10px;
+}
+
+.contact button {
+  margin-top: 30px;
+  background: #746c89;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.footer {
+  background: #746c89;
+  color: white;
+  padding: 20px;
+}
+
+a {
+  color: white;
+  margin: 0 10px;
+  margin: 20px 10px 0;
+
+  
+}
